@@ -1,0 +1,49 @@
+.converter {
+	margin: 50px auto;
+	padding: 20px;
+	max-width: 500px;
+	border: 2px solid #ccc;
+	border-radius: 10px;
+}
+
+.body {
+    background-image:url("sky.jpg");
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="number"], select {
+	padding: 5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 2px solid #ccc;
+}
+
+.radio-group {
+	margin: 10px 0;
+}
+
+button {
+	padding: 10px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+#output {
+	margin-top: 20px;
+	display: none;
+}
